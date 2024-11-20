@@ -1,0 +1,262 @@
+.first::first-letter {
+    text-transform: capitalize !important;
+}
+
+
+.sec1 {
+    height: 100vh;
+
+}
+
+.line {
+    border: #000 1px;
+    height: 100px;
+}
+
+.bigger-repeat-a {
+    position: relative;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+    border: #000 5px;
+}
+
+.bigger-repeat-a::after {
+    content: "A";
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 70px;
+    font-weight: bolder;
+    opacity: 17%;
+    z-index: -1;
+
+}
+
+.sec2 {
+    background: url(./img/mission.jpg) repeat fixed 100% !important;
+}
+
+.style-li {
+    list-style: none;
+}
+
+.bigger-repeat-o {
+    position: relative;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+    border: #000 5px;
+}
+
+.bigger-repeat-o::after {
+    content: "O";
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 70px;
+    font-weight: bolder;
+    opacity: 17%;
+    z-index: -1;
+
+}
+
+.cover-img {
+    position: absolute;
+    background: #d3151570;
+    top: 0%;
+
+    display: none;
+    height: 100% !important;
+    width: 100% !important;
+    transition: all 0.5s ease-in-out;
+
+
+
+}
+
+.base-img {
+    position: relative;
+    overflow: hidden;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+
+}
+
+.base-img:hover .cover-img {
+    position: absolute;
+    background: #d3151570;
+    top: 0%;
+
+    display: block;
+    height: 100% !important;
+    width: 100% !important;
+
+}
+
+.base-img:hover {
+    overflow: hidden;
+    transform: scale(1.2);
+
+}
+
+.bigger-repeat-R {
+    position: relative;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+    border: #000 5px;
+}
+
+.bigger-repeat-R::after {
+    content: "R";
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 70px;
+    font-weight: bolder;
+    opacity: 17%;
+    z-index: -1;
+
+}
+
+.red {}
+
+.red:hover {
+    color: #ee1c1c;
+}
+
+
+
+/* page3-part3 */
+.cover3-img {
+    position: absolute;
+    margin: auto;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.base3-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.base3-img:hover .cover3-img {
+    position: absolute;
+    background: #fffbfb;
+    top: 2.5%;
+    left: 2.5%;
+
+    display: block;
+   
+    height: 95% !important;
+    width: 95% !important;
+    
+}
+/* page5-part1 */
+
+.bigger-repeat-s {
+    position: relative;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+    border: #000 5px;
+}
+
+.bigger-repeat-s::after {
+    content: "S";
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 70px;
+    font-weight: bolder;
+    opacity: 17%;
+    z-index: -1;
+
+}
+/* page5- part3 */
+
+.video{
+    background: url(./img/video.jpg) fixed 100% repeat;
+    height: 100% !important;
+    width: 100%;
+}
+/* page6-part1 */
+
+.bigger-repeat-c {
+    position: relative;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+    border: #000 5px;
+}
+
+.bigger-repeat-c::after {
+    content: "C";
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 70px;
+    font-weight: bolder;
+    opacity: 17%;
+    z-index: -1;
+
+}
+/* page8-part1 */
+
+.bigger-repeat-b {
+    position: relative;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+    border: #000 5px;
+}
+
+.bigger-repeat-b::after {
+    content: "B";
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 70px;
+    font-weight: bolder;
+    opacity: 17%;
+    z-index: -1;
+
+}
+
+.last{
+    background-color: #000000;
+
+}
+
+.last:hover{
+    background-color: #ee1c1c;
+    
+}
+/* page10 (Get In Touch) */
+.bigger-repeat-g {
+    position: relative;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+    border: #000 5px;
+}
+
+.bigger-repeat-g::after {
+    content: "G";
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 70px;
+    font-weight: bolder;
+    opacity: 17%;
+    z-index: -1;
+
+}
